@@ -1,7 +1,7 @@
 import unittest
 import configparser
 config = configparser.ConfigParser()
-config.read("C:\\Users\\rachowdary\\Downloads\\JSON_Input_Files\\abc.txt")
+config.read("https://github.com/kolla233/DisneyDev/tree/master/prmFiles/abc.txt")
 a = config.get("addition", "a")
 b = config.get("addition", "b")
 result= config.get("addition", "result")
